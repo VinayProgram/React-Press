@@ -3,6 +3,7 @@ import ElementAction from "../components/element-action-texts";
 import Navigaton from "../components/navigation";
 import SideBar from "../components/sidebar";
 import CanvasEditor from "./canvas";
+import ElementSection from "../components/element-section";
 
 const Editor = () => {  
   return (
@@ -15,6 +16,7 @@ const Editor = () => {
       <SideBar />
     </main>
       <ElementAction/>
+      <ElementSection/>
       </React.Fragment>
   );
 };

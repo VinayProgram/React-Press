@@ -31,7 +31,7 @@ const ElementAction = () => {
 
    const closeElementDialog=()=>{
     setElementDialog({
-      display:false,
+      display:'',
       state:{
         tagName:''
       }
@@ -46,7 +46,7 @@ const ElementAction = () => {
   return (
     <section
       style={{
-        display: elementDialog.display ? "flex" : "none",
+        display: elementDialog.display=='text' ? "flex" : "none",
         width: "100vw",
         height: "100vh",
         backgroundColor: "#0000001a",

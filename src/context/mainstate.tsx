@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction } from "react";
 type ElementDialogType=
-{ display: boolean; 
+{ display: string; 
   state: { 
   tagName:string
   [key: string]: string } 
@@ -20,7 +20,7 @@ export const MainState = ({ children }: { children: React.ReactNode }) => {
     [key: string]: React.ReactNode;
   }>({});
   const [elementDialog, setElementDialog] = React.useState({
-    display: false,
+    display: '',
     state: {
       tagName:''
     },
