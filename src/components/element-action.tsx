@@ -9,7 +9,7 @@ const ElementAction = () => {
   });
   const {tagName}=elementDialog.state
 
-  const addElement = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const addElement = () => {
     const keyName: string = tagName;
     let newKey = (keys[keyName] += 1);
     setKeys({ ...keys, [keyName]: newKey });

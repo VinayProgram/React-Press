@@ -20,7 +20,7 @@ const ElementDialogSetter=(e:React.MouseEvent<HTMLButtonElement>)=>{
           Add
         </button>
         Add h2
-        <button name="h2" >
+        <button name="h2" onClick={ElementDialogSetter}>
           Add
         </button>
       </span>
