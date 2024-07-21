@@ -1,5 +1,5 @@
 import React from "react";
-import ElementAction from "../components/element-action";
+import ElementAction from "../components/element-action-texts";
 import Navigaton from "../components/navigation";
 import SideBar from "../components/sidebar";
 import CanvasEditor from "./canvas";
